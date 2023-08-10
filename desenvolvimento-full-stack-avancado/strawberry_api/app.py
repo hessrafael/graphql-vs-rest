@@ -84,7 +84,7 @@ class Query:
 @strawberry.type
 class Mutation:
     @strawberry.mutation
-    async def add_produto(self, nome: str, preco: float, descricao: str, marca: str,
+    async def addProduto_xxxx(self, nome: str, preco: float, descricao: str, marca: str,
                           categoria: str) -> AddProdutoResponse:
         async with models.get_session() as session:
 
